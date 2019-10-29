@@ -63,7 +63,7 @@ export default class Button extends React.Component {
     this.updateValue(nextProps, nextState);
   }
 
-  componentWillReceiveProps(nextProps, nextState) {
+  UNSAFE_componentWillReceiveProps(nextProps, nextState) {
     this.updateValue(nextProps, nextState);
   }
 
