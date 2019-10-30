@@ -29,7 +29,7 @@ export default class Draggable extends React.Component {
       onStartShouldSetPanResponder: this.handleStartShouldSetPanResponder,
       onPanResponderGrant: this.handlePanResponderGrant,
       onPanResponderMove: this.handlePanResponderMove,
-      onPanResponderRelease: this.handlePanResponderRelease,
+      onPanResponderRelease: this.handlePanResponderEnd,
       onPanResponderTerminate: this.handlePanResponderEnd,
     })
   };
